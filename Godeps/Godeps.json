@@ -1,0 +1,73 @@
+{
+	"ImportPath": "github.com/ethereum/go-ethereum",
+	"GoVersion": "go1.10",
+	"GodepVersion": "v80",
+	"Deps": [
+		{
+			"ImportPath": "github.com/btcsuite/btcd/btcec",
+			"Comment": "BTCD_0_12_0_BETA-824-g79e0051",
+			"Rev": "79e00513b1011888b1e675157ab89f527f901cae"
+		},
+		{
+			"ImportPath": "github.com/go-stack/stack",
+			"Comment": "v1.8.0",
+			"Rev": "2fee6af1a9795aafbe0253a0cfbdf668e1fb8a9a"
+		},
+		{
+			"ImportPath": "github.com/golang/snappy",
+			"Rev": "2e65f85255dbc3072edf28d6b5b8efc472979f5a"
+		},
+		{
+			"ImportPath": "github.com/syndtr/goleveldb/leveldb",
+			"Rev": "ae2bd5eed72d46b28834ec3f60db3a3ebedd8dbd"
+		},
+		{
+			"ImportPath": "github.com/syndtr/goleveldb/leveldb/cache",
+			"Rev": "ae2bd5eed72d46b28834ec3f60db3a3ebedd8dbd"
+		},
+		{
+			"ImportPath": "github.com/syndtr/goleveldb/leveldb/comparer",
+			"Rev": "ae2bd5eed72d46b28834ec3f60db3a3ebedd8dbd"
+		},
+		{
+			"ImportPath": "github.com/syndtr/goleveldb/leveldb/errors",
+			"Rev": "ae2bd5eed72d46b28834ec3f60db3a3ebedd8dbd"
+		},
+		{
+			"ImportPath": "github.com/syndtr/goleveldb/leveldb/filter",
+			"Rev": "ae2bd5eed72d46b28834ec3f60db3a3ebedd8dbd"
+		},
+		{
+			"ImportPath": "github.com/syndtr/goleveldb/leveldb/iterator",
+			"Rev": "ae2bd5eed72d46b28834ec3f60db3a3ebedd8dbd"
+		},
+		{
+			"ImportPath": "github.com/syndtr/goleveldb/leveldb/journal",
+			"Rev": "ae2bd5eed72d46b28834ec3f60db3a3ebedd8dbd"
+		},
+		{
+			"ImportPath": "github.com/syndtr/goleveldb/leveldb/memdb",
+			"Rev": "ae2bd5eed72d46b28834ec3f60db3a3ebedd8dbd"
+		},
+		{
+			"ImportPath": "github.com/syndtr/goleveldb/leveldb/opt",
+			"Rev": "ae2bd5eed72d46b28834ec3f60db3a3ebedd8dbd"
+		},
+		{
+			"ImportPath": "github.com/syndtr/goleveldb/leveldb/storage",
+			"Rev": "ae2bd5eed72d46b28834ec3f60db3a3ebedd8dbd"
+		},
+		{
+			"ImportPath": "github.com/syndtr/goleveldb/leveldb/table",
+			"Rev": "ae2bd5eed72d46b28834ec3f60db3a3ebedd8dbd"
+		},
+		{
+			"ImportPath": "github.com/syndtr/goleveldb/leveldb/util",
+			"Rev": "ae2bd5eed72d46b28834ec3f60db3a3ebedd8dbd"
+		},
+		{
+			"ImportPath": "gopkg.in/karalabe/cookiejar.v2/collections/prque",
+			"Rev": "8dcd6a7f4951f6ff3ee9cbb919a06d8925822e57"
+		}
+	]
+}

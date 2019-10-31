@@ -1,0 +1,137 @@
+package: github.com/ethereum/go-ethereum
+import:
+- package: github.com/btcsuite/btcd
+  version: 79e00513b1011888b1e675157ab89f527f901cae
+  subpackages:
+  - btcec
+- package: github.com/go-stack/stack
+  version: v1.8.0
+- package: github.com/golang/snappy
+  version: 2e65f85255dbc3072edf28d6b5b8efc472979f5a
+- package: github.com/syndtr/goleveldb
+  version: ae2bd5eed72d46b28834ec3f60db3a3ebedd8dbd
+  subpackages:
+  - leveldb
+  - leveldb/cache
+  - leveldb/comparer
+  - leveldb/errors
+  - leveldb/filter
+  - leveldb/iterator
+  - leveldb/journal
+  - leveldb/memdb
+  - leveldb/opt
+  - leveldb/storage
+  - leveldb/table
+  - leveldb/util
+- package: gopkg.in/karalabe/cookiejar.v2
+  version: 8dcd6a7f4951f6ff3ee9cbb919a06d8925822e57
+  subpackages:
+  - collections/prque
+- package: bazil.org/fuse
+  subpackages:
+  - fs
+- package: github.com/Azure/azure-storage-go
+- package: github.com/aead/skein
+- package: github.com/aristanetworks/goarista
+  subpackages:
+  - monotime
+- package: github.com/davecgh/go-spew
+  version: v1.1.1
+  subpackages:
+  - spew
+- package: github.com/dchest/blake256
+  version: v1.0.0
+- package: github.com/docker/docker
+  version: v17.05.0-ce-rc3
+  subpackages:
+  - pkg/reexec
+- package: github.com/edsrzf/mmap-go
+- package: github.com/elastic/gosigar
+  version: v0.9.0
+- package: github.com/fatih/color
+  version: v1.7.0
+- package: github.com/fjl/memsize
+  subpackages:
+  - memsizeui
+- package: github.com/gizak/termui
+  version: v2.2.0
+- package: github.com/golang/protobuf
+  version: v1.2.0
+  subpackages:
+  - proto
+  - protoc-gen-go/descriptor
+- package: github.com/hashicorp/golang-lru
+  version: v0.5.0
+  subpackages:
+  - simplelru
+- package: github.com/huin/goupnp
+  subpackages:
+  - dcps/internetgateway1
+  - dcps/internetgateway2
+- package: github.com/influxdata/influxdb
+  version: v1.6.2
+  subpackages:
+  - client
+- package: github.com/intel-go/cpuid
+- package: github.com/jackpal/go-nat-pmp
+  version: v1.0.1
+- package: github.com/julienschmidt/httprouter
+  version: v1.1
+- package: github.com/karalabe/hid
+- package: github.com/mattn/go-colorable
+  version: v0.0.9
+- package: github.com/naoina/toml
+  version: v0.1.1
+- package: github.com/olekukonko/tablewriter
+- package: github.com/pborman/uuid
+  version: v1.1
+- package: github.com/peterh/liner
+  version: v1.1.0
+- package: github.com/prometheus/prometheus
+  version: v2.3.2
+  subpackages:
+  - util/flock
+- package: github.com/rjeczalik/notify
+  version: v0.9.1
+- package: github.com/robertkrimen/otto
+- package: github.com/rs/cors
+  version: v1.5.0
+- package: gitlab.com/nitya-sattva/go-x11
+  subpackages:
+  - hash
+- package: golang.org/x/crypto
+  subpackages:
+  - openpgp
+  - pbkdf2
+  - ripemd160
+  - scrypt
+  - ssh
+  - ssh/terminal
+- package: golang.org/x/net
+  subpackages:
+  - context
+  - websocket
+- package: golang.org/x/sync
+  subpackages:
+  - syncmap
+- package: golang.org/x/sys
+  subpackages:
+  - unix
+- package: golang.org/x/tools
+  subpackages:
+  - imports
+- package: gopkg.in/fatih/set.v0
+  version: v0.2.1
+- package: gopkg.in/natefinch/npipe.v2
+- package: gopkg.in/olebedev/go-duktape.v3
+- package: gopkg.in/urfave/cli.v1
+  version: v1.20.0
+testImport:
+- package: github.com/cespare/cp
+  version: v0.1.0
+- package: github.com/stretchr/testify
+  version: v1.2.2
+  subpackages:
+  - assert
+  - require
+- package: gopkg.in/check.v1
